@@ -1,0 +1,6 @@
+@KYC_Data_Fetcher_Service_HostAddress = http://localhost:5051
+
+GET {{KYC_Data_Fetcher_Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

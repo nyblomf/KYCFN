@@ -1,0 +1,4 @@
+@rootURL = https://localhost:7189
+
+GET {{rootURL}}/kyc-data/1995
+Accept: application/json

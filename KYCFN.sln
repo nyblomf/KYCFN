@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYC-Aggregation-API-Service", "KYC-Aggregation-API-Service\KYC-Aggregation-API-Service.csproj", "{F713043C-A687-4556-B177-23FFDD4A66CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYC-Data-Fetching-Service", "KYC-Data-Fetching-Service\KYC-Data-Fetching-Service.csproj", "{E8FD437C-4351-42D5-B3F1-2BEF4755D7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYC-Cache-Service", "KYC-Cache-Service\KYC-Cache-Service.csproj", "{936AEB4E-87DD-4C15-BAE4-755409D8E2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYCCore", "KYCCore\KYCCore.csproj", "{BFA91809-FCA8-412C-8686-33A9D03941E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KYC-Testing", "KYC-Testing\KYC-Testing.csproj", "{B7251F35-B956-4A3D-B1FD-62D87970B0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F713043C-A687-4556-B177-23FFDD4A66CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F713043C-A687-4556-B177-23FFDD4A66CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F713043C-A687-4556-B177-23FFDD4A66CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F713043C-A687-4556-B177-23FFDD4A66CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FD437C-4351-42D5-B3F1-2BEF4755D7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FD437C-4351-42D5-B3F1-2BEF4755D7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FD437C-4351-42D5-B3F1-2BEF4755D7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FD437C-4351-42D5-B3F1-2BEF4755D7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936AEB4E-87DD-4C15-BAE4-755409D8E2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936AEB4E-87DD-4C15-BAE4-755409D8E2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936AEB4E-87DD-4C15-BAE4-755409D8E2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936AEB4E-87DD-4C15-BAE4-755409D8E2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA91809-FCA8-412C-8686-33A9D03941E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA91809-FCA8-412C-8686-33A9D03941E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA91809-FCA8-412C-8686-33A9D03941E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA91809-FCA8-412C-8686-33A9D03941E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7251F35-B956-4A3D-B1FD-62D87970B0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7251F35-B956-4A3D-B1FD-62D87970B0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7251F35-B956-4A3D-B1FD-62D87970B0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7251F35-B956-4A3D-B1FD-62D87970B0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {115E1D3F-BCD4-4113-B4C2-1EEC72940412}
+	EndGlobalSection
+EndGlobal
